@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端预览设置 -->
+    <meta name="view port" content="width=device-width,initial-scale=1.0">
+    <title>关于我</title>
+    <!-- cdn -->
+    <link rel="stylesheet" href="css/me.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+</head>
+<body>
+
+<!-- 导航 -->
+<nav class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">xiaowei Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <div class="m-item right item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!-- 中间内容 -->
+<div class="m-container-small m-padded-tb-large">
+    <div class="ui container">
+        <div class="ui stackable grid">
+            <div class="eleven wide column">
+                <div class="ui segment">
+                    <img src="./images/wechat.jpeg" alt="" class="ui rounded image">
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+                <div class="ui attached segment">
+                    <p class="m-text-lined m-text-thin m-text-spaced">xiaowei，一代码农。</p>
+                    <p class="m-text-lined m-text-thin m-text-spaced">热爱编程，热爱生活</p>
+
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui orange basic label">编码</div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui teal basic label">Java</div>
+
+                    <div class="ui teal basic label">Docker</div>
+                </div>
+                <div class="ui bottom attached segment">
+                    <a href="https://github.com/bangbangdexiaowei" target="_blank" class="ui circular icon button"><i
+                            class="github icon"></i></a>
+                    <!--                    <a href="#" class="ui circular icon button"><i class="weixin icon"></i></a>-->
+                    <!--                    <a href="#" class="ui circular icon button"><i class="qq icon"></i></a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 底部 -->
+<footer class="ui inverted vertical segment m-padded-tb-max">
+    <div class="ui center aligned container">
+
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="images/wechat.jpeg" class="ui round image" alt=""
+                             style="width: 100px"></div>
+                </div>
+            </div>
+
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">暂无</a>
+                </div>
+            </div>
+
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email:xiaowei_wang@aliyun.com</a>
+                    <a href="#" class="item">QQ:4665860</a>
+                </div>
+            </div>
+
+            <div class="seven wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">Blog</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">
+                    这是我的个人博客,分享生活,热爱生活。
+                </p>
+            </div>
+
+        </div>
+
+        <div class="ui inverted section divider"></div>
+
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=a2c4g.11186623.7y9jhqsfz.114.7b75294dxlqFcP#"
+           target="_blank">
+            <p class="m-text-thin m-text-spaced m-font-color m-text-lined" style="color: #cccccc">京ICP备19037229号-1</p>
+        </a>
+    </div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide')
+    });
+</script>
+</body>
+</html>

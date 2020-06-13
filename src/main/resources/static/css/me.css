@@ -132,4 +132,8 @@ body {
     .m-mobile-wide {
         width: 100% !important;
     }
+    .m-mobile-clear{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
 }
